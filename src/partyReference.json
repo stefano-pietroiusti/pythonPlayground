@@ -1,0 +1,82 @@
+[
+  {
+    "IndividualDetails": {
+      "Emails": [
+        {
+          "EmailAddress": "First-cel02c2e-f0b2-4f02-8ea4-b331963",
+          "IsPrimary": true
+        }
+      ],
+      "FirstName": "Fir3t-ce102c2e-£0b2-4£02-8ea4-b3319638be36",
+      "LastName": "Last-2c174cc8-9738-4c5a-b2d9-7ad2858ed0d2",
+      "MiddleName": null,
+      "Phones": [
+        {
+          "IsPrimary": true,
+          "PhoneNumber": "+64123456789",
+          "Type": 0
+        }
+      ],
+      "PhysicalAddress": {
+        "AddressLines": [
+          "123 Main St",
+          "Anytown",
+          "12345",
+          "NZ"
+        ],
+        "FormattedAddress": {
+          "BuildingName": null,
+          "City": "Anytown",
+          "CountryCode": "NZ",
+          "DeliveryPointIdentifier": null,
+          "PostCode": "12345",
+          "StreetName": "Main St",
+          "StreetNumber": "123",
+          "Suburb": null,
+          "TownName": null
+        }
+      },
+      "PostalAddress": null,
+      "PreviousPhysicalAddress": null,
+      "Salutation": null,
+      "OrganisationDetails": null,
+      "PartyIdentifier": "91"
+    }
+  },
+  {
+    "OrganisationDetails": {
+      "Emails": [],
+      "Name": "NEW COMPANY TEST LID",
+      "Phones": [],
+      "PhysicalAddress": {
+        "AddressLines": [
+          "TEST BUILDING NAME",
+          "1 TEST STREET",
+          "MY SUB",
+          "MY CITY",
+          "0993"
+        ],
+        "FormattedAddress": {
+          "City": "MY CITY",
+          "CountryCode": "NZ",
+          "PostCode": "0993",
+          "StreetName": "TEST BUILDING NAME"
+        }
+      },
+      "PostalAddress": {
+        "AddressLines": [
+          "TEST BUILDING NAME",
+          "1 TEST STREET",
+          "MY SUB",
+          "MY CITY"
+        ],
+        "FormattedAddress": {
+          "City": "MY CITY",
+          "CountryCode": "NZ",
+          "StreetName": "TEST BUILDING NAME"
+        }
+      },
+      "PartyIdentifier": "2395009"
+    }
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PartyDetails",
+  "type": "object",
+  "properties": {
+    "IndividualDetails": {
+      "type": "object",
+      "properties": {
+        "PartyIdentifier": { "type": "string" },
+        "FirstName": { "type": ["string", "null"] },
+        "LastName": { "type": ["string", "null"] },
+        "MiddleName": { "type": ["string", "null"] },
+        "Emails": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "EmailAddress": { "type": "string" },
+              "IsPrimary": { "type": "boolean" }
+            }
+          }
+        },
+        "Phones": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "PhoneNumber": { "type": "string" },
+              "IsPrimary": { "type": "boolean" },
+              "Type": { "type": "integer" }
+            }
+          }
+        },
+        "PhysicalAddress": { "$ref": "#/definitions/address" },
+        "PostalAddress": { "$ref": "#/definitions/address" },
+        "PreviousPhysicalAddress": { "$ref": "#/definitions/address" }
+      }
+    },
+    "OrganisationDetails": {
+      "type": "object",
+      "properties": {
+        "PartyIdentifier": { "type": "string" },
+        "Name": { "type": "string" },
+        "Emails": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/email" }
+        },
+        "Phones": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/phone" }
+        },
+        "PhysicalAddress": { "$ref": "#/definitions/address" },
+        "PostalAddress": { "$ref": "#/definitions/address" }
+      }
+    }
+  },
+  "definitions": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "AddressLines": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "FormattedAddress": {
+          "type": "object",
+          "properties": {
+            "BuildingName": { "type": ["string", "null"] },
+            "City": { "type": ["string", "null"] },
+            "CountryCode": { "type": ["string", "null"] },
+            "PostCode": { "type": ["string", "null"] },
+            "StreetName": { "type": ["string", "null"] },
+            "StreetNumber": { "type": ["string", "null"] },
+            "Suburb": { "type": ["string", "null"] },
+            "TownName": { "type": ["string", "null"] }
+          }
+        }
+      }
+    },
+    "email": {
+      "type": "object",
+      "properties": {
+        "EmailAddress": { "type": "string" },
+        "IsPrimary": { "type": "boolean" }
+      }
+    },
+    "phone": {
+      "type": "object",
+      "properties": {
+        "PhoneNumber": { "type": "string" },
+        "IsPrimary": { "type": "boolean" },
+        "Type": { "type": "integer" }
+      }
+    }
+  }
+}
