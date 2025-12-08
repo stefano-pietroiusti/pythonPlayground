@@ -1,0 +1,130 @@
+[
+  {
+    "IndividualDetails": {
+      "PartyIdentifier": "4001",
+      "FirstName": "Charlie",
+      "LastName": "Nguyen",
+      "Emails": [
+        { "EmailAddress": "charlie.nguyen@example.com", "IsPrimary": true },
+        { "EmailAddress": "c.nguyen@workmail.com", "IsPrimary": false }
+      ],
+      "Phones": [
+        { "PhoneNumber": "+64211234567", "IsPrimary": true, "Type": "Mobile" },
+        { "PhoneNumber": "+6495551111", "IsPrimary": false, "Type": "Home" }
+      ],
+      "PhysicalAddress": {
+        "AddressLines": ["12 King Street", "Christchurch", "8011", "NZ"],
+        "FormattedAddress": {
+          "StreetNumber": "12",
+          "StreetName": "King Street",
+          "City": "Christchurch",
+          "PostCode": "8011",
+          "CountryCode": "NZ"
+        }
+      },
+      "PostalAddress": {
+        "AddressLines": ["PO Box 789", "Christchurch", "8140", "NZ"],
+        "FormattedAddress": {
+          "City": "Christchurch",
+          "PostCode": "8140",
+          "CountryCode": "NZ"
+        }
+      },
+      "PreviousPhysicalAddress": {
+        "AddressLines": ["99 Old Lane", "Dunedin", "9016", "NZ"],
+        "FormattedAddress": {
+          "StreetNumber": "99",
+          "StreetName": "Old Lane",
+          "City": "Dunedin",
+          "PostCode": "9016",
+          "CountryCode": "NZ"
+        }
+      }
+    }
+  },
+  {
+    "IndividualDetails": {
+      "PartyIdentifier": "4002",
+      "FirstName": "Diana",
+      "LastName": "Martinez",
+      "Emails": [{ "EmailAddress": "diana.martinez@example.com", "IsPrimary": true }],
+      "Phones": [
+        { "PhoneNumber": "+64219876543", "IsPrimary": true, "Type": "Mobile" },
+        { "PhoneNumber": "+6495552222", "IsPrimary": false, "Type": "Work" }
+      ],
+      "PhysicalAddress": {
+        "AddressLines": ["88 Harbour Road", "Tauranga", "3110", "NZ"],
+        "FormattedAddress": {
+          "StreetNumber": "88",
+          "StreetName": "Harbour Road",
+          "City": "Tauranga",
+          "PostCode": "3110",
+          "CountryCode": "NZ"
+        }
+      },
+      "PostalAddress": null,
+      "PreviousPhysicalAddress": null
+    }
+  },
+  {
+    "OrganisationDetails": {
+      "PartyIdentifier": "5001",
+      "Name": "Global Logistics Ltd",
+      "Emails": [
+        { "EmailAddress": "contact@globallogistics.co.nz", "IsPrimary": true },
+        { "EmailAddress": "support@globallogistics.co.nz", "IsPrimary": false }
+      ],
+      "Phones": [
+        { "PhoneNumber": "+6497778888", "IsPrimary": true, "Type": "Office" },
+        { "PhoneNumber": "+6497779999", "IsPrimary": false, "Type": "Fax" }
+      ],
+      "PhysicalAddress": {
+        "AddressLines": ["101 Cargo Way", "Auckland", "1060", "NZ"],
+        "FormattedAddress": {
+          "StreetNumber": "101",
+          "StreetName": "Cargo Way",
+          "City": "Auckland",
+          "PostCode": "1060",
+          "CountryCode": "NZ"
+        }
+      },
+      "PostalAddress": {
+        "AddressLines": ["PO Box 321", "Auckland", "1150", "NZ"],
+        "FormattedAddress": {
+          "City": "Auckland",
+          "PostCode": "1150",
+          "CountryCode": "NZ"
+        }
+      }
+    }
+  },
+  {
+    "OrganisationDetails": {
+      "PartyIdentifier": "5002",
+      "Name": "HealthCare Partners Inc",
+      "Emails": [{ "EmailAddress": "info@hcp.co.nz", "IsPrimary": true }],
+      "Phones": [
+        { "PhoneNumber": "+6491234567", "IsPrimary": true, "Type": "Reception" },
+        { "PhoneNumber": "+6497654321", "IsPrimary": false, "Type": "Emergency" }
+      ],
+      "PhysicalAddress": {
+        "AddressLines": ["200 Wellness Ave", "Hamilton", "3204", "NZ"],
+        "FormattedAddress": {
+          "StreetNumber": "200",
+          "StreetName": "Wellness Ave",
+          "City": "Hamilton",
+          "PostCode": "3204",
+          "CountryCode": "NZ"
+        }
+      },
+      "PostalAddress": {
+        "AddressLines": ["PO Box 654", "Hamilton", "3240", "NZ"],
+        "FormattedAddress": {
+          "City": "Hamilton",
+          "PostCode": "3240",
+          "CountryCode": "NZ"
+        }
+      }
+    }
+  }
+]

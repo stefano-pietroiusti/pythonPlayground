@@ -1,0 +1,4 @@
+partyidentifier,addresslines,city,countrycode,postcode,run_guid,run_date_local,run_date_utc
+4001,PO Box 789 | Christchurch | 8140 | NZ,Christchurch,NZ,8140,1d053fa4-6f88-4ebc-a8f1-2c2151df4178,2025-12-08 22:13:04,2025-12-08 09:13:04
+5001,PO Box 321 | Auckland | 1150 | NZ,Auckland,NZ,1150,1d053fa4-6f88-4ebc-a8f1-2c2151df4178,2025-12-08 22:13:04,2025-12-08 09:13:04
+5002,PO Box 654 | Hamilton | 3240 | NZ,Hamilton,NZ,3240,1d053fa4-6f88-4ebc-a8f1-2c2151df4178,2025-12-08 22:13:04,2025-12-08 09:13:04

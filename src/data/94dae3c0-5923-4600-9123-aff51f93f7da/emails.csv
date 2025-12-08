@@ -1,0 +1,7 @@
+run_date_local,emailaddress,run_guid,run_date_utc,partyidentifier,isprimary
+2025-12-08 21:01:33,charlie.nguyen@example.com,94dae3c0-5923-4600-9123-aff51f93f7da,2025-12-08 08:01:33,4001,True
+2025-12-08 21:01:33,c.nguyen@workmail.com,94dae3c0-5923-4600-9123-aff51f93f7da,2025-12-08 08:01:33,4001,False
+2025-12-08 21:01:33,diana.martinez@example.com,94dae3c0-5923-4600-9123-aff51f93f7da,2025-12-08 08:01:33,4002,True
+2025-12-08 21:01:33,contact@globallogistics.co.nz,94dae3c0-5923-4600-9123-aff51f93f7da,2025-12-08 08:01:33,5001,True
+2025-12-08 21:01:33,support@globallogistics.co.nz,94dae3c0-5923-4600-9123-aff51f93f7da,2025-12-08 08:01:33,5001,False
+2025-12-08 21:01:33,info@hcp.co.nz,94dae3c0-5923-4600-9123-aff51f93f7da,2025-12-08 08:01:33,5002,True

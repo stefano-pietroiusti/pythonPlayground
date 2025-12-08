@@ -1,0 +1,24 @@
+-- Enable advanced options
+EXEC sp_configure 'show advanced options', 1;
+RECONFIGURE;
+
+-- Enable Ad Hoc Distributed Queries
+EXEC sp_configure 'Ad Hoc Distributed Queries', 1;
+RECONFIGURE;
+
+-- Verify setting
+EXEC sp_configure 'Ad Hoc Distributed Queries';
+
+
+# List SQL Server services and their accounts
+Get-WmiObject Win32_Service | Where-Object { $_.Name -like "MSSQL*" } | 
+    Select-Object Name, StartName
+
+
+# Replace with your actual service account and folder path
+$folder = "C:\projects\pythonPlayground\src\data"
+$account = "NT Service\MSSQL$SQLEXPRESS"
+
+# Grant Modify rights
+icacls $CsvFolder /grant "${account}:(OI)(CI)M" | Out-Null
+

@@ -1,0 +1,5 @@
+run_date_local,run_guid,city,run_date_utc,partyidentifier,countrycode,postcode,streetnumber,streetname,addresslines
+2025-12-08 21:01:33,94dae3c0-5923-4600-9123-aff51f93f7da,Christchurch,2025-12-08 08:01:33,4001,NZ,8011,12,King Street,12 King Street | Christchurch | 8011 | NZ
+2025-12-08 21:01:33,94dae3c0-5923-4600-9123-aff51f93f7da,Tauranga,2025-12-08 08:01:33,4002,NZ,3110,88,Harbour Road,88 Harbour Road | Tauranga | 3110 | NZ
+2025-12-08 21:01:33,94dae3c0-5923-4600-9123-aff51f93f7da,Auckland,2025-12-08 08:01:33,5001,NZ,1060,101,Cargo Way,101 Cargo Way | Auckland | 1060 | NZ
+2025-12-08 21:01:33,94dae3c0-5923-4600-9123-aff51f93f7da,Hamilton,2025-12-08 08:01:33,5002,NZ,3204,200,Wellness Ave,200 Wellness Ave | Hamilton | 3204 | NZ
